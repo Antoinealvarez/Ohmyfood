@@ -1,0 +1,117 @@
+
+  .header {
+    height: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 30px;
+    position: sticky;
+    bottom: 0;
+    left: 0; }
+  
+    .footer a {
+      text-decoration: none;
+      color: #fdcb46; }
+    
+  
+  .style {
+    background-color: #579c87;
+    color: #fdcb46;
+    font-family: "Montserrat", sans-serif; }
+
+
+  
+
+  body {
+    margin: 0px; }
+  
+  
+  main {
+    display: flex;
+    justify-content: center;
+    margin: 50px; }
+  
+    main .cartes {
+      height: 400px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 0px 6px 6px #e7e2e2; }
+    
+      main .cartes p {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: 'Kalam', cursive; }
+      main .cartes a {
+        text-decoration: none;
+        text-align: center; }
+  
+  
+  .note,
+  .note a {
+    background-color: #fcdfdb;
+    color: #3c1218; }
+    .note i,
+    .note a i {
+      background:  #f6916a ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .note h2,
+    .note a h2 {
+      font-family: "Courgette", cursive;
+      font-size: 25px; }
+  .chic,
+  .chic a {
+    background-color: #fff5fe;
+    color: #c77412; }
+    .chic h2,
+    .chic a h2 {
+      font-size: 21px;
+      background: #d8852e;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  
+  .delice,
+  .delice a {
+    background-color: #f9f9f9;
+    color: #0887fb; }
+    .delice h2,
+    .delice a h2 {
+      font-size: 35px;
+      background:  #55acfb ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  
+  .palette,
+  .palette a {
+    background-color: #fdfffd;
+    color: #79c45c; }
+    .palette h2,
+    .palette a h2 {
+      font-size: 30px;
+      background: #bfff7e ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  
+
+  .soon {
+    margin: 0 auto 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  
+ 
+  
