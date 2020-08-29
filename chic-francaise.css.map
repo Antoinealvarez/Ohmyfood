@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,OAAO;EACzB,SAAS,EAAE,IAAI;CAElB;;AAGD,AAAA,WAAW,CAAC;EACR,WAAW,EAAE,wBAAwB;CAExC;;AAGD,AAAA,iBAAiB,CAAC;EACd,KAAK,EAAE,OAAO;CAIjB;;AAED,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,OAAO;CAGjB;;AAED,AAAA,kBAAkB,CAAC;EACf,KAAK,EAAE,OAAO;CAGjB",
-    "sources": [
-        "chic-francaise.scss"
-    ],
-    "names": [],
-    "file": "chic-francaise.css"
-}
