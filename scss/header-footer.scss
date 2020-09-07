@@ -1,0 +1,36 @@
+.header {
+    height: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: #fdcb46;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 30px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+
+    a {
+        text-decoration: none;
+        color: #fdcb46;
+        ;
+    }
+
+
+}
+
+.style {
+    background-color: #579c87;
+    color: #fdcb46;
+    font-family: "Montserrat", sans-serif;
+}

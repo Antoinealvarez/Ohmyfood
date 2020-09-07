@@ -1,0 +1,13 @@
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin style {
+    background-color:#579c87;
+    color: #fdcb46;
+    font-family: 'Montserrat', sans-serif;
+}
