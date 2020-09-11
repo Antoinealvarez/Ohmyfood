@@ -5,5 +5,29 @@
     color: #3c1218;
     font-family:  'Courgette', cursive;
     font-size: 25px;
+     .underline-note {
+        background: linear-gradient(to top, #3c1218 5%, transparent 5.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 800ms;
+        
+    &:hover {
+        background-size: 100% 100%;
+    }
 
+}
+
+.titre-top {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.titre-bottom {
+    display: flex;
+    margin: 20px;
+    align-items: baseline;
+
+    h3 {
+        margin-left: 10px;
+    }
+}
 }
