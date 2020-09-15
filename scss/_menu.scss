@@ -1,0 +1,39 @@
+
+
+.menu {
+    @include flex-column-center;
+    font-size: 25px;
+    margin: 5% 10% 5% 10%;
+
+
+    section {
+        width: 90%;
+        margin-bottom: 20px;
+    
+
+     
+
+         >div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            >p {
+                max-width: 80%;
+            }
+
+            .prix {
+                font-weight: bold;
+            }
+        }
+            h3{
+                text-align:center;
+                margin: auto;
+            }
+        }
+    }
+
+    .trait {
+        width: 30%;
+        height: 15px;
+    }
