@@ -13,12 +13,13 @@
 
 
 @mixin style {
-    background-color:#579c87;
-    color: #fdcb46;
-    font-family: 'Montserrat', sans-serif;
+    background-color:$color-bgr;
+    color: $color-txt;
+    font-family: $font;
 }
 
-
-
-
-
+@mixin linear-gradient($color1, $color2) {
+    background: linear-gradient(to right, $color1 0%, $color2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

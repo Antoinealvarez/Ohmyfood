@@ -1,5 +1,20 @@
 
 .menu-palette {
     background-color: #fdfffd;
-    font-family: 'Kausha $palette-bgn Script', cursive;;
+    font-family: 'Kausha $palette-bgn Script', cursive;
+    @media all and (max-width: 550px) {
+        font-size: 8px;
+    }
+    .underline-palette {
+        @include underline(#79c45c);
+    }
+
+    .titre-palette {
+        font-size: 60px;
+        @include linear-gradient(#42973c, #bfff7e);
+        
+        @media all and (max-width: 550px) {
+            font-size: 28px;
+        }
+    }
 }

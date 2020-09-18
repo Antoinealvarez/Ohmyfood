@@ -51,6 +51,19 @@ main .cartes {
           box-shadow: 0px 0px 6px 6px #e7e2e2;
 }
 
+@media all and (max-width: 800px) {
+  main .cartes {
+    margin: 30px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  main .cartes {
+    height: 380px;
+    width: 280px;
+  }
+}
+
 main .cartes p {
   text-transform: uppercase;
   font-size: 30px;
@@ -70,7 +83,10 @@ main .cartes a {
 
 .note i,
 .note a i {
-  color: #f05160;
+  background: -webkit-gradient(linear, left top, right top, from(#f05160), to(#f6916a));
+  background: linear-gradient(to right, #f05160 0%, #f6916a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .note h2,
@@ -89,7 +105,10 @@ main .cartes a {
 .chic a h2 {
   font-family: 'Croissant One', cursive;
   font-size: 21px;
-  color: #905bfd;
+  background: -webkit-gradient(linear, left top, right top, from(#d8852e), to(#905bfd));
+  background: linear-gradient(to right, #d8852e 0%, #905bfd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .delice,
@@ -102,7 +121,10 @@ main .cartes a {
 .delice a h2 {
   font-family: 'Alex Brush', cursive;
   font-size: 35px;
-  color: #55acfb;
+  background: -webkit-gradient(linear, left top, right top, from(#0229dd), to(#55acfb));
+  background: linear-gradient(to right, #0229dd 0%, #55acfb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .palette,
@@ -115,7 +137,10 @@ main .cartes a {
 .palette a h2 {
   font-family: 'Kaushan Script', cursive;
   font-size: 30px;
-  color: #42973c;
+  background: -webkit-gradient(linear, left top, right top, from(#42973c), to(#bfff7e));
+  background: linear-gradient(to right, #42973c 0%, #bfff7e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .soon {
@@ -253,18 +278,160 @@ main .cartes a {
   display: inline-block;
 }
 
+.titre-chic {
+  font-family: 'Croissant One', cursive;
+  background: -webkit-gradient(linear, left top, right top, from(#d8852e), to(#905bfd));
+  background: linear-gradient(to right, #d8852e 0%, #905bfd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media all and (max-width: 550px) {
+  .titre-chic {
+    font-size: 18px;
+  }
+}
+
+.entrees-chic {
+  color: #c77412;
+}
+
+.entrees-chic .underline-chic-entrees {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #c77412), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #c77412 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.entrees-chic .underline-chic-entrees:hover {
+  background-size: 100% 100%;
+}
+
+.plats-chic {
+  color: #a56799;
+}
+
+.plats-chic .underline-chic-plats {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #a56799), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #a56799 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.plats-chic .underline-chic-plats:hover {
+  background-size: 100% 100%;
+}
+
+.desserts-chic {
+  color: #6e4ccc;
+}
+
+.desserts-chic .underline-chic-desserts {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #6e4ccc), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #6e4ccc 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.desserts-chic .underline-chic-desserts:hover {
+  background-size: 100% 100%;
+}
+
 .menu-palette {
   background-color: #fdfffd;
   font-family: 'Kausha $palette-bgn Script', cursive;
 }
 
+@media all and (max-width: 550px) {
+  .menu-palette {
+    font-size: 8px;
+  }
+}
+
+.menu-palette .underline-palette {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #79c45c), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #79c45c 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.menu-palette .underline-palette:hover {
+  background-size: 100% 100%;
+}
+
+.menu-palette .titre-palette {
+  font-size: 60px;
+  background: -webkit-gradient(linear, left top, right top, from(#42973c), to(#bfff7e));
+  background: linear-gradient(to right, #42973c 0%, #bfff7e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media all and (max-width: 550px) {
+  .menu-palette .titre-palette {
+    font-size: 28px;
+  }
+}
+
 .menu-papilles {
   background-color: #f9f9f9;
   font-family: 'Alex Brush', cursive;
+  font-size: 35px;
 }
 
-.menu-papilles p {
-  font-size: 35px;
+.titre-papilles {
+  font-size: 60px;
+  color: #0889fb;
+  background: -webkit-gradient(linear, left top, right top, from(#0645e5), to(#0889fb));
+  background: linear-gradient(to right, #0645e5 0%, #0889fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media all and (max-width: 550px) {
+  .titre-papilles {
+    font-size: 30px;
+  }
+}
+
+.underline-papilles-entrees {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #0228dd), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #0228dd 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.underline-papilles-entrees:hover {
+  background-size: 100% 100%;
+}
+
+.underline-papilles-plats {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #0670f3), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #0670f3 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.underline-papilles-plats:hover {
+  background-size: 100% 100%;
+}
+
+.underline-papilles-desserts {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #0887fb), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #0887fb 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.underline-papilles-desserts:hover {
+  background-size: 100% 100%;
 }
 
 .menu-note {
@@ -272,6 +439,19 @@ main .cartes a {
   color: #3c1218;
   font-family: 'Courgette', cursive;
   font-size: 25px;
+}
+
+@media all and (max-width: 500px) {
+  .menu-note {
+    font-size: 14px;
+  }
+}
+
+.menu-note i {
+  background: -webkit-gradient(linear, left top, right top, from(#f05160), to(#f6916a));
+  background: linear-gradient(to right, #f05160 0%, #f6916a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu-note .underline-note {
@@ -286,13 +466,29 @@ main .cartes a {
   background-size: 100% 100%;
 }
 
-.menu-note .titre-top {
+.titre-top {
   text-align: center;
   font-size: 20px;
   margin-top: 50px;
 }
 
-.menu-note .titre-bottom {
+@media all and (max-width: 500px) {
+  .titre-top {
+    font-size: 13px;
+  }
+}
+
+.titre-top h2 {
+  font-size: 40px;
+}
+
+@media all and (max-width: 500px) {
+  .titre-top h2 {
+    font-size: 20px;
+  }
+}
+
+.titre-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,13 +498,60 @@ main .cartes a {
           align-items: baseline;
 }
 
-.menu-note .titre-bottom h3 {
+.titre-bottom h3 {
   margin-left: 10px;
+}
+
+.titre-menu {
+  font-size: 45px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
 }
 
 .menu-palette {
   background-color: #fdfffd;
   font-family: 'Kausha $palette-bgn Script', cursive;
+}
+
+@media all and (max-width: 550px) {
+  .menu-palette {
+    font-size: 8px;
+  }
+}
+
+.menu-palette .underline-palette {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #79c45c), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #79c45c 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.menu-palette .underline-palette:hover {
+  background-size: 100% 100%;
+}
+
+.menu-palette .titre-palette {
+  font-size: 60px;
+  background: -webkit-gradient(linear, left top, right top, from(#42973c), to(#bfff7e));
+  background: linear-gradient(to right, #42973c 0%, #bfff7e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media all and (max-width: 550px) {
+  .menu-palette .titre-palette {
+    font-size: 28px;
+  }
 }
 
 .header {
@@ -323,6 +566,13 @@ main .cartes a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media all and (max-width: 500px) {
+  .header {
+    height: 80px;
+    font-size: 25px;
+  }
 }
 
 .header a {
@@ -345,9 +595,34 @@ main .cartes a {
   left: 0;
 }
 
+@media all and (max-width: 500px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 30px;
+  }
+}
+
 .footer a {
   text-decoration: none;
   color: #fdcb46;
+}
+
+@media all and (max-width: 500px) {
+  .footer a {
+    font-size: 20px;
+  }
 }
 
 .style {
@@ -379,6 +654,12 @@ main .cartes a {
   margin-bottom: 20px;
 }
 
+@media all and (max-width: 900px) {
+  .menu section {
+    padding: 10px;
+  }
+}
+
 .menu section > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -407,5 +688,18 @@ main .cartes a {
 .trait {
   width: 30%;
   height: 15px;
+}
+
+@media all and (max-width: 900px) {
+  .trait {
+    width: 25%;
+    height: 10px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .trait {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

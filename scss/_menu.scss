@@ -9,6 +9,9 @@
     section {
         width: 90%;
         margin-bottom: 20px;
+        @media all and (max-width: 900px) {
+            padding: 10px;
+        }
     
 
      
@@ -36,4 +39,12 @@
     .trait {
         width: 30%;
         height: 15px;
+        @media all and (max-width: 900px) {
+            width: 25%;
+            height: 10px;
+        }
+
+        @media all and (max-width: 700px) {
+            display: none;
+        }
     }

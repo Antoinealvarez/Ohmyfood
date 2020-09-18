@@ -2,10 +2,14 @@
     height: 100px;
     font-size: 30px;
    @include flex-centre;
+   @media all and (max-width: 500px) {
+    height: 80px;
+    font-size: 25px;
+}
 
     a {
         text-decoration: none;
-        color: #fdcb46;;
+        color: $color-txt;
     }
 }
 
@@ -17,18 +21,26 @@
     position: sticky;
     bottom: 0;
     left: 0;
+    
+    @media all and (max-width: 500px) {
+        @include flex-column-center;
+       height: 30px;
+}
 
     a {
         text-decoration: none;
-        color: #fdcb46;
-        ;
+        color: $color-txt;
+        @media all and (max-width: 500px) {
+            font-size: 20px;
+        }
+        
     }
 
 
 }
 
 .style {
-    background-color: #579c87;
-    color: #fdcb46;
-    font-family: "Montserrat", sans-serif;
+    background-color:$color-bgr;
+    color: $color-txt;
+    font-family: $font;
 }
