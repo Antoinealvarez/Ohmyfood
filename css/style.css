@@ -517,40 +517,75 @@ main .cartes a {
   margin-bottom: 80px;
 }
 
-.menu-palette {
-  background-color: #fdfffd;
-  font-family: 'Kausha $palette-bgn Script', cursive;
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  margin: 5% 10% 5% 10%;
 }
 
-@media all and (max-width: 550px) {
-  .menu-palette {
-    font-size: 8px;
+.menu section {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 900px) {
+  .menu section {
+    padding: 10px;
   }
 }
 
-.menu-palette .underline-palette {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #79c45c), color-stop(5.01%, transparent)) no-repeat;
-  background: linear-gradient(to top, #79c45c 5%, transparent 5.01%) no-repeat;
-  background-size: 0 100%;
-  -webkit-transition: background-size 800ms;
-  transition: background-size 800ms;
+.menu section > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.menu-palette .underline-palette:hover {
-  background-size: 100% 100%;
+.menu section > div > p {
+  max-width: 80%;
 }
 
-.menu-palette .titre-palette {
-  font-size: 60px;
-  background: -webkit-gradient(linear, left top, right top, from(#42973c), to(#bfff7e));
-  background: linear-gradient(to right, #42973c 0%, #bfff7e 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.menu section > div .prix {
+  font-weight: bold;
 }
 
-@media all and (max-width: 550px) {
-  .menu-palette .titre-palette {
-    font-size: 28px;
+.menu section h3 {
+  text-align: center;
+  margin: auto;
+}
+
+.trait {
+  width: 30%;
+  height: 15px;
+}
+
+@media all and (max-width: 900px) {
+  .trait {
+    width: 25%;
+    height: 10px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .trait {
+    display: none;
   }
 }
 
@@ -629,77 +664,5 @@ main .cartes a {
   background-color: #579c87;
   color: #fdcb46;
   font-family: "Montserrat", sans-serif;
-}
-
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 25px;
-  margin: 5% 10% 5% 10%;
-}
-
-.menu section {
-  width: 90%;
-  margin-bottom: 20px;
-}
-
-@media all and (max-width: 900px) {
-  .menu section {
-    padding: 10px;
-  }
-}
-
-.menu section > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.menu section > div > p {
-  max-width: 80%;
-}
-
-.menu section > div .prix {
-  font-weight: bold;
-}
-
-.menu section h3 {
-  text-align: center;
-  margin: auto;
-}
-
-.trait {
-  width: 30%;
-  height: 15px;
-}
-
-@media all and (max-width: 900px) {
-  .trait {
-    width: 25%;
-    height: 10px;
-  }
-}
-
-@media all and (max-width: 700px) {
-  .trait {
-    display: none;
-  }
 }
 /*# sourceMappingURL=style.css.map */

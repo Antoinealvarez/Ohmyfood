@@ -1,0 +1,31 @@
+ .menu-papilles{
+    background-color: #f9f9f9;
+    font-family: 'Alex Brush', cursive;
+    font-size: 35px;
+ }
+ 
+ .titre-papilles {
+    font-size: 60px;
+    color: #0889fb;
+    @include linear-gradient(#0645e5, #0889fb);
+
+    @media all and (max-width: 550px) {
+        font-size: 30px;
+    }
+}
+
+.underline-papilles-entrees {
+    @include underline(#0228dd);
+}
+
+.underline-papilles-plats {
+    @include underline(#0670f3);
+}
+
+.underline-papilles-desserts {
+    @include underline(#0887fb);
+}
+
+
+
+    
