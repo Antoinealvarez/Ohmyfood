@@ -1,3 +1,41 @@
+
 $color-txt: #fdcb46;
 $color-bgr: #579c87;
 $font: 'Montserrat', sans-serif;
+
+$menu-themes: (
+    note: (
+      background-color: #fcdfdb,
+      link-color: #3c1218,
+      image-color-start: #f05160,
+      image-color-stop: #f6916a,
+      gradient-color-start: #3c1218,
+      gradient-color-stop: #3c1218,
+      font-family: ('Courgette', cursive),
+      font-size: 25px,    
+    ),
+    chic: (
+      background-color: #fff5fe,
+      link-color: #905bfd,     
+      gradient-color-start: #d8852e,
+      gradient-color-stop: #905bfd,
+      font-family: ('Croissant One', cursive),
+      font-size: 21px,  
+    ),
+    delice: (
+      background-color: #f9f9f9,
+      link-color: #0887fb,      
+      gradient-color-start: #0229dd,
+      gradient-color-stop: #55acfb,
+      font-family: ('Alex Brush', cursive),
+      font-size: 35px,    
+    ),
+    palette: (
+      background-color: #fdfffd,
+      link-color: #79c45c,      
+      gradient-color-start: #42973c,
+      gradient-color-stop: #bfff7e,
+      font-family: ('Kaushan Script', cursive),
+      font-size: 30px,  
+    )  
+  );

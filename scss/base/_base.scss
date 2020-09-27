@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+  }
+
+.style {
+  background-color:$color-bgr;
+  color: $color-txt;
+  font-family:$font;
+}
+.titre-menu{
+  font-size: 45px;
+  font-weight: bold;
+  @include flex-centre;
+  margin-bottom: 80px;
+}

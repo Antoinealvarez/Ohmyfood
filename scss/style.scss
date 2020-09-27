@@ -1,12 +1,22 @@
 @import './utils/mixin';
 @import './utils/variables';
-@import './base/main';
-@import './animation';
-@import './pages/chic';
-@import './pages/palette';
-@import './pages/delice';
-@import './pages/note';
-@import './base/menu'; 
-@import './layouts/header-footer'; 
+@import './utils/_animation';
 
+@import './base/_base';
+@import './base/_typography';
+
+
+@import './components/_container';
+@import './components/_carte';
+@import './components/_menu'; 
+@import './components/_soon'; 
+
+@import './pages/_chic';
+@import './pages/_palette';
+@import './pages/_délice';
+@import './pages/_note';
+@import './pages/_palette'; 
+@import './layout/_header'; 
+@import './layout/_footer'; 
+@import './pages/mention'; 
 

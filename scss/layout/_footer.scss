@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 30px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    @media all and (max-width: 500px) {
+        @include flex-column-center;
+       height: 30px;
+}
+
+    a {
+        text-decoration: none;
+        color: $color-txt;
+        @media all and (max-width: 500px) {
+            font-size: 20px;
+        }
+        
+    }
+
+
+}
+
