@@ -1,5 +1,6 @@
 .menu {
-
+    font-size: 25px;
+    margin: 5% 10% 5% 10%;
     @each $name,
     $theme in $menu-themes {
         &--#{$name} {
@@ -10,15 +11,15 @@
             }
 
 
-            @if map-get($theme, image-color-start){ 
-            i {
-                @include linear-gradient(map-get($theme, image-color-start), map-get($theme, image-color-stop));
+            @if map-get($theme, image-color-start) {
+                i {
+                    @include linear-gradient(map-get($theme, image-color-start), map-get($theme, image-color-stop));
+                }
             }
-        }
 
 
             h2 {
-                
+
                 font-family: map-get($theme, font-family);
                 font-size: map-get($theme, font-size);
                 @include linear-gradient(map-get($theme, gradient-color-start), map-get($theme, gradient-color-stop));
@@ -28,7 +29,7 @@
         }
     }
 
-    
+
     &__cover {
         p {
             text-transform: uppercase;
@@ -36,18 +37,17 @@
             font-family: 'Kalam', cursive;
         }
     }
-
-    // il faudrait peut être ici ajouter une sous classe pour bien séparer le fait que c'est la partie qui gère le détail des menus 
-    font-size: 25px;
-    margin: 5% 10% 5% 10%;
+ 
+   
 
     section {
         width: 90%;
         margin-bottom: 20px;
+
         @media all and (max-width: 900px) {
             padding: 10px;
         }
-    
+
 
         >div {
             display: flex;
@@ -73,6 +73,7 @@
 .trait {
     width: 30%;
     height: 15px;
+
     @media all and (max-width: 900px) {
         width: 25%;
         height: 10px;

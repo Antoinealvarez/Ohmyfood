@@ -10,13 +10,7 @@
         font-size: 14px;
     }
     .underline-note {
-        background: linear-gradient(to top, #3c1218 5%, transparent 5.01%) no-repeat;
-        background-size: 0 100%;
-        transition: background-size 800ms;
-        
-    &:hover {
-        background-size: 100% 100%;
-    }
+     @include underline(#3c1218);
     }
 i {
     @include linear-gradient(#f05160, #f6916a);

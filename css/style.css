@@ -153,7 +153,7 @@ a {
           justify-content: space-evenly;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -177,7 +177,7 @@ a {
 
 .carte {
   min-height: 400px;
-  min-width: 300px;
+  min-width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,7 +193,6 @@ a {
           align-items: center;
   -webkit-box-shadow: 0 0 6px #e7e2e2;
           box-shadow: 0 0 6px #e7e2e2;
-  padding: 5%;
   margin-bottom: 5%;
 }
 
@@ -404,12 +403,48 @@ a {
   color: #c77412;
 }
 
+.menu-chic .entrees-chic .underline-chic-entrees {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #c77412), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #c77412 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.menu-chic .entrees-chic .underline-chic-entrees:hover {
+  background-size: 100% 100%;
+}
+
 .menu-chic .plats-chic {
   color: #a56799;
 }
 
+.menu-chic .plats-chic .underline-chic-plats {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #a56799), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #a56799 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.menu-chic .plats-chic .underline-chic-plats:hover {
+  background-size: 100% 100%;
+}
+
 .menu-chic .desserts-chic {
   color: #6e4ccc;
+}
+
+.menu-chic .desserts-chic .underline-chic-desserts {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #6e4ccc), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #6e4ccc 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.menu-chic .desserts-chic .underline-chic-desserts:hover {
+  background-size: 100% 100%;
 }
 
 .menu-palette {
@@ -417,7 +452,19 @@ a {
   font-family: 'Kausha $palette-bgn Script', cursive;
 }
 
-.titre-palette {
+.menu-palette .underline-palette {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #79c45c), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #79c45c 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.menu-palette .underline-palette:hover {
+  background-size: 100% 100%;
+}
+
+.menu-palette .titre-palette {
   font-size: 60px;
   background: -webkit-gradient(linear, left top, right top, from(#42973c), to(#bfff7e));
   background: linear-gradient(to right, #42973c 0%, #bfff7e 100%);
@@ -426,7 +473,7 @@ a {
 }
 
 @media all and (max-width: 550px) {
-  .titre-palette {
+  .menu-palette .titre-palette {
     font-size: 28px;
   }
 }
@@ -450,6 +497,42 @@ a {
   .titre-papilles {
     font-size: 30px;
   }
+}
+
+.underline-papilles-entrees {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #0228dd), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #0228dd 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.underline-papilles-entrees:hover {
+  background-size: 100% 100%;
+}
+
+.underline-papilles-plats {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #0670f3), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #0670f3 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.underline-papilles-plats:hover {
+  background-size: 100% 100%;
+}
+
+.underline-papilles-desserts {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #0887fb), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #0887fb 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.underline-papilles-desserts:hover {
+  background-size: 100% 100%;
 }
 
 .menu-note {
@@ -525,7 +608,19 @@ a {
   font-family: 'Kausha $palette-bgn Script', cursive;
 }
 
-.titre-palette {
+.menu-palette .underline-palette {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #79c45c), color-stop(5.01%, transparent)) no-repeat;
+  background: linear-gradient(to top, #79c45c 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 800ms;
+  transition: background-size 800ms;
+}
+
+.menu-palette .underline-palette:hover {
+  background-size: 100% 100%;
+}
+
+.menu-palette .titre-palette {
   font-size: 60px;
   background: -webkit-gradient(linear, left top, right top, from(#42973c), to(#bfff7e));
   background: linear-gradient(to right, #42973c 0%, #bfff7e 100%);
@@ -534,7 +629,7 @@ a {
 }
 
 @media all and (max-width: 550px) {
-  .titre-palette {
+  .menu-palette .titre-palette {
     font-size: 28px;
   }
 }
