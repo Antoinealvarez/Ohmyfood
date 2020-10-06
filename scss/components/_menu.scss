@@ -1,6 +1,7 @@
 .menu {
     font-size: 25px;
     margin: 5% 10% 5% 10%;
+
     @each $name,
     $theme in $menu-themes {
         &--#{$name} {
@@ -37,8 +38,8 @@
             font-family: 'Kalam', cursive;
         }
     }
- 
-   
+
+
 
     section {
         width: 90%;

@@ -3,13 +3,11 @@
     font-size: 25px;
     display: inline-block;
     @include flex-centre;
-   .entrees-chic {
-        color: #c77412;
-    }
- 
+
+
 
     .titre-chic {
-        
+
         font-family: 'Croissant One', cursive;
         @include linear-gradient(#d8852e, #905bfd);
 
@@ -17,9 +15,11 @@
             font-size: 18px;
         }
     }
+
     .entrees-chic {
-    
+
         color: #c77412;
+
         .underline-chic-entrees {
             @include underline(#c77412);
         }
@@ -27,6 +27,7 @@
 
     .plats-chic {
         color: #a56799;
+
         .underline-chic-plats {
             @include underline(#a56799);
         }
@@ -35,10 +36,11 @@
 
     .desserts-chic {
         color: #6e4ccc;
+
         .underline-chic-desserts {
             @include underline(#6e4ccc);
         }
 
     }
-   
-    }
+
+}

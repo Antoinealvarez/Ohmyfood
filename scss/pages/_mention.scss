@@ -1,21 +1,21 @@
-
-
-.container-mention{
+.container-mention {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 30px 20px 30px;
     font-size: 20px;
-    @media all and (max-width: 500px){
+
+    @media all and (max-width: 500px) {
         font-size: 15px;
     }
-    
-    h2, h3{
-      
+
+    h2,
+    h3 {
+
         text-align: center;
     }
-    
-    a{
+
+    a {
         text-decoration: none;
     }
 }

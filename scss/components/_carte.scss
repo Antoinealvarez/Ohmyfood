@@ -1,18 +1,19 @@
 .carte {
-    min-height: 400px;
-    min-width: 350px;
-    @include flex-column-center;
-    box-shadow: 0 0 6px #e7e2e2;
+  min-height: 400px;
+  min-width: 350px;
+  @include flex-column-center;
+  box-shadow: 0 0 6px #e7e2e2;
 
 
-    margin-bottom: 5%;
-    @media all and (max-width: 800px) {
-      margin: 30px;
-    }
+  margin-bottom: 5%;
 
-    @media all and (max-width: 350px) {
-      height: 380px;
-      width: 280px;
-    }
-
+  @media all and (max-width: 800px) {
+    margin: 30px;
   }
+
+  @media all and (max-width: 350px) {
+    min-height: 380px;
+    min-width: 280px;
+  }
+
+}
