@@ -32,12 +32,21 @@
 
 
     &__cover {
+        text-align: center;
         p {
             text-transform: uppercase;
             font-size: 30px;
             font-family: 'Kalam', cursive;
-        }
-    }
+        } 
+        
+            &:hover {
+                .zoom-menus{
+                overflow: hidden;
+                transform: scale(1.15);
+                transition: transform 0.6s ease-in-out;
+                opacity: 0.8;
+            }
+    }}
 
 
 
