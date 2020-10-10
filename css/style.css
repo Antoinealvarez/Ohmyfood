@@ -195,8 +195,8 @@ a {
 
 @media all and (max-width: 360px) {
   .carte {
-    min-height: 380px;
-    min-width: 280px;
+    min-height: 360px;
+    min-width: 270px;
   }
 }
 
